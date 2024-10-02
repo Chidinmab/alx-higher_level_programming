@@ -18,7 +18,7 @@ class Square:
         return self.__size
 
     @size.setter
-    def seize(self, value):
+    def size(self, value):
         """ setter property"""
         if not isinstance(value, int):
             raise TypeError("size must be an integer")
