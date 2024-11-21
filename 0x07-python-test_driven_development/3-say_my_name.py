@@ -6,8 +6,8 @@ def say_my_name(first_name, last_name=""):
     """Method for printing first and last name.
 
     Args:
-        first_name: first name string.
-        last_name: last name string.
+        first_name: The first name string.
+        last_name: The last name string.
 
     Raises:
         TypeError: If first_name or last_name are not strings.
